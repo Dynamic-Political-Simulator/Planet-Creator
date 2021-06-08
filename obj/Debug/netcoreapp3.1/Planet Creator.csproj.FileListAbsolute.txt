@@ -1,0 +1,23 @@
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\Planet Creator.exe
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\Planet Creator.deps.json
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\Planet Creator.runtimeconfig.json
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\Planet Creator.runtimeconfig.dev.json
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\Planet Creator.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\Planet Creator.pdb
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\obj\Debug\netcoreapp3.1\Planet Creator.csprojAssemblyReference.cache
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\obj\Debug\netcoreapp3.1\Planet Creator.AssemblyInfoInputs.cache
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\obj\Debug\netcoreapp3.1\Planet Creator.AssemblyInfo.cs
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\obj\Debug\netcoreapp3.1\Planet Creator.csproj.CoreCompileInputs.cache
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\obj\Debug\netcoreapp3.1\Planet Creator.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\obj\Debug\netcoreapp3.1\Planet Creator.pdb
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\obj\Debug\netcoreapp3.1\Planet Creator.genruntimeconfig.cache
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\ClosedXML.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\ExcelNumberFormat.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Users\thoma\source\repos\Planet Creator\Planet Creator\obj\Debug\netcoreapp3.1\Planet Creator.csproj.CopyComplete

@@ -1,0 +1,253 @@
+#All Orion Planet Effects
+create_Sanctuary_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	while = {
+		count = 20
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 86
+		create_pop = {
+			species = human
+		}
+	}
+	while = {
+		count = 2
+		create_pop = {
+			species = polish
+		}
+	}
+}
+
+create_Halychast_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	while = {
+		count = 21
+		create_pop = {
+			species = human
+		}
+	}
+	add_modifier = {
+		modifier = pm_lush
+	}
+	add_modifier = {
+		modifier = gpm_friendly_wildlife
+	}
+}
+
+create_Hades_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	while = {
+		count = 35
+		create_pop = {
+			species = human
+		}
+	}
+	add_modifier = {
+		modifier = gpm_mineral_rich_2
+	}
+	add_modifier = {
+		modifier = gpm_single_biome
+	}
+}
+
+create_Tianzheng_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	while = {
+		count = 72
+		create_pop = {
+			species = human
+		}
+	}
+}
+
+create_Hagia_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	while = {
+		count = 45
+		create_pop = {
+			species = human
+		}
+	}
+}
+
+create_Shenandoah_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_fortress
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 12
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 29
+		create_pop = {
+			species = human
+		}
+	}
+	add_modifier = {
+		modifier = gpm_black_oily_stone
+	}
+	add_modifier = {
+		modifier = pm_lush
+	}
+	add_modifier = {
+		modifier = gpm_living_planet
+	}
+}
+
+create_Clark_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	while = {
+		count = 17
+		create_pop = {
+			species = human
+		}
+	}
+	add_modifier = {
+		modifier = gpm_mineral_rich_2
+	}
+	add_modifier = {
+		modifier = gpm_great_temperature_variation
+	}
+}
+
+create_Eyre_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	while = {
+		count = 6
+		create_pop = {
+			species = human
+		}
+	}
+	add_modifier = {
+		modifier = gpm_flat_terrain
+	}
+	add_modifier = {
+		modifier = gpm_simple_organisms
+	}
+}
+
+create_Sika Kisangani_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_factory_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 27
+		create_pop = {
+			species = human
+		}
+	}
+	add_modifier = {
+		modifier = pm_natural_beauty
+	}
+	add_modifier = {
+		modifier = pm_low_gravity
+	}
+	add_modifier = {
+		modifier = gpm_misty
+	}
+}
+
+create_New Deseret_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	while = {
+		count = 11
+		create_pop = {
+			species = human
+		}
+	}
+	add_modifier = {
+		modifier = gpm_unique_marine_habitats
+	}
+}
+
