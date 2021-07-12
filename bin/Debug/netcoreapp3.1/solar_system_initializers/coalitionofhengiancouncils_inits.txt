@@ -1,0 +1,283 @@
+#All Coalition of Hengian Councils Planet system inits
+deloorn_init={
+	name = "Deloorn"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Loprioon "
+		class = "pc_wetswamp"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:coalitionofhengiancouncils
+			set_controller = event_target:coalitionofhengiancouncils
+			create_loprioon_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:coalitionofhengiancouncils
+			}
+		}
+	}
+}
+
+meapol_init={
+	name = "Meapol"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Meapol"
+		class = "pc_arid"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 16
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:coalitionofhengiancouncils
+			set_controller = event_target:coalitionofhengiancouncils
+			create_meapol_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:coalitionofhengiancouncils
+			}
+		}
+	}
+}
+
+choulop_init={
+	name = "Choulop"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Choulop"
+		class = "pc_swamp"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:coalitionofhengiancouncils
+			set_controller = event_target:coalitionofhengiancouncils
+			create_choulop_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:coalitionofhengiancouncils
+			}
+		}
+	}
+}
+
+yolopi_init={
+	name = "Yolopi"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Yolopi"
+		class = "pc_cenote"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 12
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:coalitionofhengiancouncils
+			set_controller = event_target:coalitionofhengiancouncils
+			create_yolopi_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:coalitionofhengiancouncils
+			}
+		}
+	}
+}
+
+dyolo_init={
+	name = "Dyolo"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Dyolo"
+		class = "pc_megaflora"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 15
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:coalitionofhengiancouncils
+			set_controller = event_target:coalitionofhengiancouncils
+			create_dyolo_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:coalitionofhengiancouncils
+			}
+		}
+	}
+}
+
+neepmop_init={
+	name = "Neepmop"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Neepmop"
+		class = "pc_biolumen"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 21
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:coalitionofhengiancouncils
+			set_controller = event_target:coalitionofhengiancouncils
+			create_neepmop_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:coalitionofhengiancouncils
+			}
+		}
+	}
+}
+

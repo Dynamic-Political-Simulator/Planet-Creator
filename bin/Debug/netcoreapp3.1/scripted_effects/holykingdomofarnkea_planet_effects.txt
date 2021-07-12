@@ -1,0 +1,166 @@
+#All Holy Kingdom of Arnkea Planet Effects
+create_bloreikt_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_food_processing_center
+	add_building = building_commercial_zone
+	add_building = building_research_lab_2
+	add_building = building_factory_1
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 31
+		create_pop = {
+			species = event_target:arknean
+		}
+	}
+	add_modifier = {
+		modifier =  gpm_ice_age
+	}
+	add_modifier = {
+		modifier = gpm_ice_flora
+	}
+}
+
+create_perineikt_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_zone
+	add_building = building_chemical_plant
+	add_building = building_foundry_2
+	add_building = building_ministry_production
+
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 8
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 45
+		create_pop = {
+			species = event_target:arknean
+		}
+	}
+	add_modifier = {
+		modifier = gpm_strong_magnetic_field_2
+	}
+}
+
+create_arneikt_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_mineral_purification_hub
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 16
+		create_pop = {
+			species = event_target:arknean
+		}
+	}
+	add_modifier = {
+		modifier = gpm_newly_evolved_complex_organisms
+	}
+}
+

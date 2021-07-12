@@ -1,0 +1,257 @@
+#All Ismerin Free Republic Planet Effects
+create_fairemaiden_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_food_processing_center
+	add_building = building_commercial_zone
+	add_building = building_research_lab_2
+	add_building = building_factory_1
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 54
+		create_pop = {
+			species = event_target:human
+		}
+	}
+	add_modifier = {
+		modifier = karst
+	}
+}
+
+create_stanislav_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_zone
+	add_building = building_chemical_plant
+	add_building = building_foundry_2
+	add_building = building_ministry_production
+
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 6
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 31
+		create_pop = {
+			species = event_target:human
+		}
+	}
+}
+
+create_jahangir_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_research_lab_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_zone
+	add_building = building_commercial_zone
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 45
+		create_pop = {
+			species = event_target:human
+		}
+	}
+}
+
+create_sun-sin_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_stronghold
+	add_building = building_fortress
+	add_building = building_military_academy
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 26
+		create_pop = {
+			species = event_target:human
+		}
+	}
+}
+
+create_albatross_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_mineral_purification_hub
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 14
+		create_pop = {
+			species = event_target:human
+		}
+	}
+}
+

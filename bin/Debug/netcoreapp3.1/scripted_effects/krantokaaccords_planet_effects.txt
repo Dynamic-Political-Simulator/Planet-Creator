@@ -1,0 +1,42 @@
+#All Krantoka Accords Planet Effects
+create_krantokastation_colony = {
+	prevent_anomaly = yes
+	add_building = building_hab_major_capital
+	add_building = building_stronghold
+	add_building = building_hydroponics_farm
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_habiation
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_trade
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 10
+		create_pop = {
+			species = event_target:humans
+		}
+	}
+	add_modifier = {
+		modifier = gpm_habitat_experimental_food_recycling
+
+	}
+	add_modifier = {
+		modifier = gpm_habitat_stadium
+	}
+}
+

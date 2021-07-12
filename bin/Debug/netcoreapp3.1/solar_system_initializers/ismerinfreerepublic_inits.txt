@@ -1,0 +1,236 @@
+#All Ismerin Free Republic Planet system inits
+anchorpoint_init={
+	name = "Anchorpoint"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Fairemaiden"
+		class = "pc_karst"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 21
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:ismerinfreerepublic
+			set_controller = event_target:ismerinfreerepublic
+			create_fairemaiden_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:ismerinfreerepublic
+			}
+		}
+	}
+}
+
+petrov_init={
+	name = "Petrov"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Stanislav"
+		class = "pc_crag"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 17
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:ismerinfreerepublic
+			set_controller = event_target:ismerinfreerepublic
+			create_stanislav_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:ismerinfreerepublic
+			}
+		}
+	}
+}
+
+salim_init={
+	name = "Salim"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Jahangir"
+		class = "pc_veld"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:ismerinfreerepublic
+			set_controller = event_target:ismerinfreerepublic
+			create_jahangir_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:ismerinfreerepublic
+			}
+		}
+	}
+}
+
+yi_init={
+	name = "Yi"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Sun-sin"
+		class = "pc_desertislands"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 16
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:ismerinfreerepublic
+			set_controller = event_target:ismerinfreerepublic
+			create_sun-sin_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:ismerinfreerepublic
+			}
+		}
+	}
+}
+
+coleridge_init={
+	name = "Coleridge"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Albatross"
+		class = "pc_continental"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:ismerinfreerepublic
+			set_controller = event_target:ismerinfreerepublic
+			create_albatross_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:ismerinfreerepublic
+			}
+		}
+	}
+}
+

@@ -1,0 +1,793 @@
+#All Rouii Planet Effects
+create_naffbao_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	add_building = building_research_lab_2
+	add_building = building_research_lab_2
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_autochthon_monument
+	add_building = building_commercial_zone
+	add_building = building_energy_grid
+	add_building = building_food_processing_center
+	add_building = building_holo_theatres
+	while = {
+		count = 15
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 91
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+	add_modifier = {
+		modifier = aquatic
+	}
+}
+
+create_aotua_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_bureaucratic_2
+	add_building = building_chemical_plant
+	add_building = building_foundry_2
+	add_building = building_ministry_production
+
+	while = {
+		count = 8
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 10
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 70
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+	add_modifier = {
+		modifier = aquatic
+	}
+}
+
+create_aotia_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_crystal_plant
+	add_building = building_crystal_plant
+	add_building = building_refinery
+	add_building = building_refinery
+	add_building = building_chemical_plant
+	add_building = building_chemical_plant
+	while = {
+		count = 12
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 71
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+	add_modifier = {
+		modifier = aquatic
+	}
+}
+
+create_nafftaun_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_commercial_zone
+	add_building = building_bureaucratic_2
+	add_building = building_food_processing_center
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 15
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 72
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+	add_modifier = {
+		modifier = superhabitable
+	}
+}
+
+create_dauy_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_chemical_plant
+	add_building = building_mineral_purification_hub
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 9
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 40
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_cenee_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_mineral_purification_hub
+	add_building = building_food_processing_center
+	add_building = building_heritage_site
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 55
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_aoten_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_research_lab_1
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_megaplex
+	add_building = building_bureaucratic_2
+	add_building = building_research_lab_2
+	add_building = building_institute
+	add_building = building_grand_embassy
+	add_building = building_autochthon_monument
+	while = {
+		count = 15
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 66
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_naffhual_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_zone
+	add_building = building_chemical_plant
+	add_building = building_foundry_2
+	add_building = building_ministry_production
+
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 10
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 64
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_naffmana_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_zone
+	add_building = building_commercial_zone
+	add_building = building_research_lab_2
+	add_building = building_institute
+	add_building = building_autochthon_monument
+	while = {
+		count = 15
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 80
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_yu_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_energy_grid
+	add_building = building_chemical_plant
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 8
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 30
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_ueoyia_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_research_lab_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_zone
+	add_building = building_commercial_zone
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 55
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_lum_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_bureaucratic_1
+	add_building = building_ministry_production
+
+	add_building = building_commercial_zone
+	add_building = building_factory_1
+	add_building = building_crystal_plant
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 50
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_kaoyll_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_zone
+	add_building = building_chemical_plant
+	add_building = building_foundry_2
+	add_building = building_ministry_production
+
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 6
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 32
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_yy_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_research_lab_2
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	add_building = building_commercial_zone
+	add_building = building_bureaucratic_1
+	add_building = building_refinery
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 20
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+}
+
+create_phin_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_factory_2
+	add_building = building_bureaucratic_1
+	add_building = building_ministry_production
+	add_building = building_chemical_plant
+	add_building = building_commercial_zone
+	while = {
+		count = 6
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		create_pop = {
+			species = event_target:baoi
+		}
+	}
+	while = {
+		count = 42
+		create_pop = {
+			species = event_target:mlakhrak
+		}
+	}
+}
+

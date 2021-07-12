@@ -1,0 +1,189 @@
+#All Europa Planet system inits
+kalergi_init={
+	name = "Kalergi"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Nouveau Europa"
+		class = "pc_continental"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:europa
+			set_controller = event_target:europa
+			create_nouveaueuropa_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:europa
+			}
+		}
+	}
+}
+
+kalergi_init={
+	name = "Kalergi"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Jeanne d'Arc"
+		class = "pc_tropical"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 16
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:europa
+			set_controller = event_target:europa
+			create_jeannedarc_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:europa
+			}
+		}
+	}
+}
+
+kalergi_init={
+	name = "Kalergi"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Siegfried"
+		class = "pc_cascadian"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 17
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:europa
+			set_controller = event_target:europa
+			create_siegfried_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:europa
+			}
+		}
+	}
+}
+
+kalergi_init={
+	name = "Kalergi"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Olympia"
+		class = "pc_boreal"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 12
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:europa
+			set_controller = event_target:europa
+			create_olympia_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:europa
+			}
+		}
+	}
+}
+

@@ -1,0 +1,285 @@
+#All Aartaw Kiritate Planet Effects
+create_mndkhaalga_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	add_building = building_stronghold
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 10
+		create_pop = {
+			species = event_target:aartaw
+		}
+	}
+}
+
+create_khoidkhaalga_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	add_building = building_stronghold
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 10
+		create_pop = {
+			species = event_target:aartaw
+		}
+	}
+}
+
+create_togtvortoi_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	add_building = building_research_lab_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_zone
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 30
+		create_pop = {
+			species = event_target:aartaw
+		}
+	}
+}
+
+create_ariunamralt_colony = {
+	prevent_anomaly = yes
+	add_building = building_colony_shelter
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 8
+		create_pop = {
+			species = event_target:aartaw
+		}
+	}
+}
+
+create_ikhtal_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	add_building = building_food_processing_center
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 6
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 17
+		create_pop = {
+			species = event_target:aartaw
+		}
+	}
+}
+
+create_vchtei_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	add_building = building_colony_shelter
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 7
+		create_pop = {
+			species = event_target:aartaw
+		}
+	}
+}
+

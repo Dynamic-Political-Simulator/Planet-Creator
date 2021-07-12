@@ -1,0 +1,707 @@
+#All Rouii Planet system inits
+amber_init={
+	name = "Amber"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Naff’Bao"
+		class = "pc_aquatic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_naffbao_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+turquoise_init={
+	name = "Turquoise
+"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Ao’Tua"
+		class = "pc_aquatic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_aotua_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+ruby_init={
+	name = "Ruby"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Ao’Tia"
+		class = "pc_aquatic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 15
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_aotia_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+emerald_init={
+	name = "Emerald"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Naff’Taun"
+		class = "pc_superhabitable"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_nafftaun_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+sapphire_init={
+	name = "Sapphire"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Dauy"
+		class = "pc_cenote"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 15
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_dauy_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+garnet_init={
+	name = "Garnet"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Cene’e"
+		class = "pc_aeolian"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 17
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_cenee_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+amethyst_init={
+	name = "Amethyst"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Ao'Ten"
+		class = "pc_desertislands"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_aoten_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+diamond_init={
+	name = "Diamond"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Naff’Hual"
+		class = "pc_ocean"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 14
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_naffhual_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+opal_init={
+	name = "Opal"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Naff’Mana"
+		class = "pc_lake"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 28
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_naffmana_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+pearl_init={
+	name = "Pearl"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Yu"
+		class = "pc_storm"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 15
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_yu_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+topaz_init={
+	name = "Topaz"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Ueoyia"
+		class = "pc_mangrove"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_ueoyia_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+emerald_init={
+	name = "Emerald"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Lum"
+		class = "pc_ocean"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_lum_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+lazurite_init={
+	name = "Lazurite"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Kaoyll"
+		class = "pc_ocean"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_kaoyll_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+beryl_init={
+	name = "Beryl"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Yy"
+		class = "pc_desertislands"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 17
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_yy_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+
+soror_init={
+	name = "Soror"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Phin"
+		class = "pc_cenote"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:rouii
+			set_controller = event_target:rouii
+			create_phin_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:rouii
+			}
+		}
+	}
+}
+

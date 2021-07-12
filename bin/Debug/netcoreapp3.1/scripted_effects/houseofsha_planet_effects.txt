@@ -1,0 +1,172 @@
+#All House of Sha Planet Effects
+create_delibund_colony = {
+	prevent_anomaly = yes
+	add_building = building_system_capital
+	add_building = building_research_lab_1
+	add_building = building_commercial_zone
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_factory_1
+	add_building = building_temple
+	add_building = building_temple
+	add_building = building_chamber_of_elevation_1
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 45
+		create_pop = {
+			species = event_target:shatakh
+		}
+	}
+	while = {
+		count = 15
+		create_pop = {
+			species = event_target:mlakhrak
+		}
+	}
+}
+
+create_bendelo_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_mineral_purification_hub
+	add_building = building_chamber_of_elevation_1
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 30
+		create_pop = {
+			species = event_target:shatakh
+		}
+	}
+	while = {
+		count = 10
+		create_pop = {
+			species = event_target:mlakhrak
+		}
+	}
+}
+
+create_reclamation_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_mineral_purification_hub
+	add_building = building_commercial_zone
+	add_building = building_temple
+	add_building = building_chemical_plant
+	add_building = building_chamber_of_elevation_1
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		create_pop = {
+			species = event_target:shatakh
+		}
+	}
+	while = {
+		count = 30
+		create_pop = {
+			species = event_target:mlakhrak
+		}
+	}
+}
+

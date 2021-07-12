@@ -1,0 +1,206 @@
+#All Popular National Republic of Al Planet Effects
+create_tillianeconomiczone_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_research_lab_1
+	add_building = building_commercial_zone
+	add_building = building_commercial_zone
+	add_building = building_factory_1
+	add_building = building_refinery
+	add_building = building_bureaucratic_2
+	while = {
+		count = 8
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 51
+		create_pop = {
+			species = event_target:alkan
+		}
+	}
+}
+
+create_chieldi_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_foundry_2
+	add_building = building_bureaucratic_1
+	add_building = building_ministry_production
+	add_building = building_crystal_plant
+	add_building = building_commercial_zone
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 37
+		create_pop = {
+			species = event_target:alkan
+		}
+	}
+}
+
+create_hureth_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_commercial_zone
+	add_building = building_mineral_purification_hub
+	add_building = building_salt_mine
+	add_building = building_chemical_plant
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 24
+		create_pop = {
+			species = event_target:alkan
+		}
+	}
+}
+
+create_iesen-doh_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_research_lab_2
+	add_building = building_research_lab_2
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	add_building = building_commercial_zone
+	add_building = building_bureaucratic_2
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 23
+		create_pop = {
+			species = event_target:alkan
+		}
+	}
+}
+

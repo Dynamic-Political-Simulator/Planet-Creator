@@ -1,0 +1,614 @@
+#All Sovokh Peoples State Planet Effects
+create_eidyyet_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_research_lab_1
+	add_building = building_bureaucratic_1
+	add_building = building_commercial_zone
+	add_building = building_commercial_zone
+	add_building = building_stronghold
+	add_building = building_stronghold
+	add_building = building_foundry_1
+	add_building = building_factory_1
+	add_building = building_robot_assembly_plant
+	add_building = building_holo_theatres
+	while = {
+		count = 9
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 50
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+	while = {
+		count = 3
+		create_pop = {
+			species = event_target:lokken
+		}
+	}
+	while = {
+		count = 2
+		create_pop = {
+			species = event_target:robots
+		}
+	}
+	add_modifier = {
+		modifier = mushroom
+	}
+}
+
+create_errodonys_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_factory_2
+	add_building = building_bureaucratic_1
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 27
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:lokken
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:robots
+		}
+	}
+}
+
+create_sylnamel_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_mineral_purification_hub
+	add_building = building_bureaucratic_1
+	add_building = building_chemical_plant
+	add_building = building_robot_assembly_plant
+	add_building = building_clinic
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 25
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:lokken
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:robots
+		}
+	}
+	add_deposit = d_large_lihtium_deposit
+	add_modifier = {
+		modifier = pm_ultra_rich
+	}
+}
+
+create_valeidyyet_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_food_processing_center
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 9
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:lokken
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:robots
+		}
+	}
+	add_modifier = {
+		modifier = mushroom
+	}
+}
+
+create_ghaalziemamohnen_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_stronghold
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 6
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+	add_deposit =  d_livable_cave 
+	add_deposit =  d_livable_cave 
+	add_deposit =  d_livable_cave 
+	add_modifier = {
+		modifier = karst
+	}
+}
+
+create_iariya_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_chemical_plant
+	add_building = building_energy_grid
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 16
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:lokken
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:robots
+		}
+	}
+	add_modifier = {
+		modifier = pdstorm
+	}
+}
+
+create_aelberenia_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_research_lab_1
+	add_building = building_commercial_zone
+	add_building = building_bureaucratic_1
+	add_building = building_holo_theatres
+	add_building = building_robot_assembly_plant
+	while = {
+		count = 6
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 34
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+	while = {
+		count = 2
+		create_pop = {
+			species = event_target:lokken
+		}
+	}
+	while = {
+		count = 2
+		create_pop = {
+			species = event_target:robots
+		}
+	}
+}
+
+create_impelemveilath_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_food_processing_center
+	add_building = building_bureaucratic_1
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 7
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 21
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:lokken
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:robots
+		}
+	}
+	add_modifier = {
+		modifier = pm_lush
+	}
+}
+
+create_iligaera_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_research_lab_2
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	add_building = building_commercial_zone
+	add_building = building_bureaucratic_1
+	add_building = building_refinery
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 19
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:lokken
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:robots
+		}
+	}
+}
+
+create_hodern_colony = {
+	prevent_anomaly = yes
+	add_building = building_colony_shelter
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		create_pop = {
+			species = event_target:sovokh
+		}
+	}
+}
+

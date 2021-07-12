@@ -1,0 +1,231 @@
+#All Sovereign Democratic Republic o Planet Effects
+create_segon-pali_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_research_lab_1
+	add_building = building_research_lab_1
+	add_building = building_commercial_zone
+	add_building = building_factory_1
+	add_building = building_bureaucratic_1
+	while = {
+		count = 6
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 53
+		create_pop = {
+			species = event_target:alkan
+		}
+	}
+}
+
+create_briemvond_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_foundry_2
+	add_building = building_bureaucratic_1
+	add_building = building_ministry_production
+	add_building = building_chemical_plant
+	add_building = building_commercial_zone
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 6
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 46
+		create_pop = {
+			species = event_target:alkan
+		}
+	}
+}
+
+create_site111_colony = {
+	prevent_anomaly = yes
+	add_building = building_hab_capital
+	add_building = building_research_lab_2
+	add_building = building_refinery
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_hab_housing
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_hab_science
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 7
+		create_pop = {
+			species = event_target:alkan
+		}
+	}
+}
+
+create_salamedul-uihim_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_crystal_plant
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_1
+	add_building = building_bureaucratic_2
+	add_building = building_bureaucratic_2
+	add_building = building_research_lab_1
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 32
+		create_pop = {
+			species = event_target:alkan
+		}
+	}
+}
+
+create_alkas_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_military_academy
+	add_building = building_fortress
+	add_building = building_stronghold
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 17
+		create_pop = {
+			species = event_target:alkan
+		}
+	}
+}
+

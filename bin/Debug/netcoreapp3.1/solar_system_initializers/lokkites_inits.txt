@@ -1,0 +1,330 @@
+#All Lokkites Planet system inits
+679-k_init={
+	name = "679-K"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "867-C"
+		class = "pc_machine"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 10
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:lokkites
+			set_controller = event_target:lokkites
+			create_867-c_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:lokkites
+			}
+		}
+	}
+}
+
+34-c_init={
+	name = "34-C"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "34-C"
+		class = "pc_sandsea"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 8
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:lokkites
+			set_controller = event_target:lokkites
+			create_34-c_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:lokkites
+			}
+		}
+	}
+}
+
+alphapost_init={
+	name = "Alpha Post"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Alpha Post"
+		class = "pc_frozen_desert"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 15
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:lokkites
+			set_controller = event_target:lokkites
+			create_alphapost_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:lokkites
+			}
+		}
+	}
+}
+
+quarry_init={
+	name = "Quarry"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Quarry"
+		class = "pc_highland"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:lokkites
+			set_controller = event_target:lokkites
+			create_quarry_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:lokkites
+			}
+		}
+	}
+}
+
+zoiphish_init={
+	name = "Zoiphish"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Zoiphish"
+		class = "pc_mud"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:lokkites
+			set_controller = event_target:lokkites
+			create_zoiphish_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:lokkites
+			}
+		}
+	}
+}
+
+228-c_init={
+	name = "228-C"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "228-C"
+		class = "pc_tundra"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 10
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:lokkites
+			set_controller = event_target:lokkites
+			create_228-c_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:lokkites
+			}
+		}
+	}
+}
+
+bastion_init={
+	name = "Bastion"
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+	has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 2 max = 10 }
+		class = random_non_colonizable
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	planet = {
+		name = "Bastion"
+		class = "pc_ash"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+		init_effect = {
+			set_owner = event_target:lokkites
+			set_controller = event_target:lokkites
+			create_bastion_colony = yes
+		}
+	}
+	init_effect = {
+		solar_system = {
+			create_starbase = {
+				size = starbase_outpost
+				owner = event_target:lokkites
+			}
+		}
+	}
+}
+

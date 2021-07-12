@@ -1,0 +1,356 @@
+#All Coalition of Hengian Councils Planet Effects
+create_loprioon_colony = {
+	prevent_anomaly = yes
+	add_building = building_major_capital
+	add_building = building_research_lab_1
+	add_building = building_bureaucratic_1
+	add_building = building_food_processing_center
+	while = {
+		count = 3
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 9
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 25
+		create_pop = {
+			species = event_target:hengian
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:human
+		}
+	}
+	add_modifier = {
+		modifier = pm_lush
+	}
+	add_modifier = {
+		modifier = gpm_delicious_ingredients
+	}
+	add_modifier = {
+		modifier = pm_dead_god
+	}
+}
+
+create_meapol_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_factory_1
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 6
+		create_pop = {
+			species = event_target:hengian
+		}
+	}
+	add_modifier = {
+		modifier = gpm_sandstorms
+	}
+	add_modifier = {
+		modifier = gpm_melted_ice_caps
+	}
+	add_modifier = {
+		modifier = gpm_lingering_pollution
+	}
+}
+
+create_choulop_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_gas_extractors
+	add_building = building_pillar_of_affliction
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 15
+		create_pop = {
+			species = event_target:hengian
+		}
+	}
+	add_deposit = d_fuming_bog
+	add_deposit = d_bubbling_swamp
+	add_deposit = d_bubbling_swamp
+	add_deposit = d_lush_jungle
+	add_deposit = d_lush_jungle
+	add_deposit = d_black_soil
+	add_deposit = d_black_soil
+	add_deposit = d_rushing_waterfalls
+	add_deposit = d_mineral_fields
+	add_deposit = d_boggy_fens
+	add_modifier = {
+		modifier = gpm_omnious_fog
+	}
+}
+
+create_yolopi_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_mineral_purification_hub
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 4
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 9
+		create_pop = {
+			species = event_target:hengian
+		}
+	}
+	while = {
+		count = 1
+		create_pop = {
+			species = event_target:human
+		}
+	}
+	add_modifier = {
+		modifier = pm_high_quality_materials
+	}
+	add_modifier = {
+		modifier = pm_high_gravity 
+	}
+}
+
+create_dyolo_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_research_lab_1
+	add_building = building_food_processing_center
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 0
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 6
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 10
+		create_pop = {
+			species = event_target:hengian
+		}
+	}
+	while = {
+		count = 2
+		create_pop = {
+			species = event_target:human
+		}
+	}
+	add_modifier = {
+		modifier =  gpm_perfect_seasons
+	}
+	add_modifier = {
+		modifier = pm_titanic_life
+	}
+}
+
+create_neepmop_colony = {
+	prevent_anomaly = yes
+	add_building = building_capital
+	add_building = building_heritage_site
+	add_building = building_commercial_zone
+	add_building = building_food_processing_center
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_city
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 2
+		add_district = {
+			district_type = district_industrial
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_generator
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 1
+		add_district = {
+			district_type = district_mining
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 5
+		add_district = {
+			district_type = district_farming
+			ignore_cap = yes
+		}
+	}
+	while = {
+		count = 18
+		create_pop = {
+			species = event_target:hengian
+		}
+	}
+	add_modifier = {
+		modifier = pm_atmospheric_aphrodisiac
+	}
+	add_modifier = {
+		modifier = biolumen
+	}
+}
+
